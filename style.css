@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+    background-color: cornsilk;
+}
+
+.logo {
+    height: 90px;
+}
