@@ -1,54 +1,69 @@
+/* Reset básico para garantir uma aparência consistente entre navegadores */
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
+/* Estilos para o header */
 .navbar {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 1px;
-    background-color:aquamarine
-
+    padding: 1rem 2rem;
+    background-color: #00796b; /* Cor de fundo verde escuro */
 }
 
-.header {
-background-color: brown;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-padding: 15px;
-
+.logo img {
+    height: 50px; /* Ajuste da altura do logo para uma aparência mais adequada */
 }
 
+.nav-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ffeb3b; /* Cor de destaque para hover */
+}
+
+/* Estilos para a seção principal (hero) */
+.hero-section {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f4f4f4; /* Cor de fundo suave para a seção hero */
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.hero-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #666;
+}
+
+.promotional-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Adiciona bordas arredondadas para uma aparência mais moderna */
+}
+
+/* Estilos para o footer */
 .footer {
-
-
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-padding: 15px;
-
-
-}
-
-.logo {
-
-
-height: 200px;
-
-
-
-}
-
-.mamaco {
-
-width: 300px;
-
-
-
-
+    text-align: center;
+    padding: 1rem;
+    background-color: #00796b; /* Mesma cor de fundo que o header para coesão visual */
+    color: #fff;
 }
